@@ -1,0 +1,21 @@
+{
+  "name": "huit/schedule-hub",
+  "description": "Quản lý và phân lịch giảng dạy đa cơ sở cho HUIT",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.23"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
